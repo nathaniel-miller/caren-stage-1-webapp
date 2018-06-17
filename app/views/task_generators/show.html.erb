@@ -1,0 +1,79 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Description:</strong>
+  <%= @task_generator.description %>
+</p>
+
+<p>
+  <strong>Category:</strong>
+  <%= @task_generator.category_id %>
+</p>
+
+<p>
+  <strong>Mandatory:</strong>
+  <%= @task_generator.mandatory %>
+</p>
+
+<p>
+  <strong>Every n:</strong>
+  <%= @task_generator.every_n %>
+</p>
+
+<p>
+  <strong>Sun:</strong>
+  <%= @task_generator.sun %>
+</p>
+
+<p>
+  <strong>Mon:</strong>
+  <%= @task_generator.mon %>
+</p>
+
+<p>
+  <strong>Tues:</strong>
+  <%= @task_generator.tues %>
+</p>
+
+<p>
+  <strong>Wed:</strong>
+  <%= @task_generator.wed %>
+</p>
+
+<p>
+  <strong>Thurs:</strong>
+  <%= @task_generator.thurs %>
+</p>
+
+<p>
+  <strong>Fri:</strong>
+  <%= @task_generator.fri %>
+</p>
+
+<p>
+  <strong>Sat:</strong>
+  <%= @task_generator.sat %>
+</p>
+
+<p>
+  <strong>Part of day:</strong>
+  <%= @task_generator.part_of_day %>
+</p>
+
+<p>
+  <strong>Custom time:</strong>
+  <%= @task_generator.custom_time %>
+</p>
+
+<p>
+  <strong>Last run:</strong>
+  <%= @task_generator.last_run %>
+</p>
+
+<p>
+  <strong>Look ahead:</strong>
+  <%= @task_generator.look_ahead %>
+</p>
+
+<%= link_to 'Edit', edit_task_generator_path(@task_generator) %> |
+<%= link_to 'Back', task_generators_path %>

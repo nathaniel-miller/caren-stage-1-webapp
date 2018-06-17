@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  resources :task_generators
   resources :roles
   resources :positions
   resources :circles

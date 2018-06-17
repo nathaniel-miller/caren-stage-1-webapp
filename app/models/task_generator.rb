@@ -1,0 +1,2 @@
+class TaskGenerator < ApplicationRecord
+end

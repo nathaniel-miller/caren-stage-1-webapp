@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  resources :invitations
   resources :task_generators
   resources :roles
   resources :positions

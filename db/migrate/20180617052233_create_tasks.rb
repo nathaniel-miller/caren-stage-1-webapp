@@ -4,10 +4,10 @@ class CreateTasks < ActiveRecord::Migration[5.2]
       t.text :description
       t.datetime :expiration_date
       t.boolean :completed
-      t.int :completed_by
-      t.int :category_id
-      t.int :created_by
-      t.int :task_generator_id
+      t.integer :completed_by
+      t.integer :category_id
+      t.integer :created_by
+      t.integer :task_generator_id
 
       t.timestamps
     end

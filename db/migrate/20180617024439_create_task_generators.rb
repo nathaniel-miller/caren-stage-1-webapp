@@ -4,7 +4,7 @@ class CreateTaskGenerators < ActiveRecord::Migration[5.2]
       t.text :description
       t.integer :category_id
       t.boolean :mandatory
-      t.int :every_n
+      t.integer :every_n
       t.boolean :sun
       t.boolean :mon
       t.boolean :tues
@@ -12,10 +12,10 @@ class CreateTaskGenerators < ActiveRecord::Migration[5.2]
       t.boolean :thurs
       t.boolean :fri
       t.boolean :sat
-      t.int :part_of_day
+      t.integer :part_of_day
       t.time :custom_time
       t.timestamp :last_run
-      t.int :look_ahead
+      t.integer :look_ahead
 
       t.timestamps
     end

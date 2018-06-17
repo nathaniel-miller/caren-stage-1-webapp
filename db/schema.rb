@@ -10,10 +10,95 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2018_06_16_191211) do
+ActiveRecord::Schema.define(version: 2018_06_17_052233) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
+
+  create_table "categories", force: :cascade do |t|
+    t.string "name"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+  end
+
+  create_table "circles", force: :cascade do |t|
+    t.integer "owner_id"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+  end
+
+  create_table "important_info_pieces", force: :cascade do |t|
+    t.text "description"
+    t.string "category_id"
+    t.string "int"
+    t.integer "created_by"
+    t.integer "seen_by", default: [], array: true
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+  end
+
+  create_table "invitations", force: :cascade do |t|
+    t.boolean "accepted"
+    t.boolean "reject"
+    t.integer "position_id"
+    t.integer "sender_id"
+    t.string "email"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+  end
+
+  create_table "positions", force: :cascade do |t|
+    t.integer "role_id"
+    t.integer "user_id"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+  end
+
+  create_table "posts", force: :cascade do |t|
+    t.text "description"
+    t.integer "created_by"
+    t.boolean "medical"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+  end
+
+  create_table "roles", force: :cascade do |t|
+    t.string "name"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+  end
+
+  create_table "task_generators", force: :cascade do |t|
+    t.text "description"
+    t.integer "category_id"
+    t.boolean "mandatory"
+    t.integer "every_n"
+    t.boolean "sun"
+    t.boolean "mon"
+    t.boolean "tues"
+    t.boolean "wed"
+    t.boolean "thurs"
+    t.boolean "fri"
+    t.boolean "sat"
+    t.integer "part_of_day"
+    t.time "custom_time"
+    t.datetime "last_run"
+    t.integer "look_ahead"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+  end
+
+  create_table "tasks", force: :cascade do |t|
+    t.text "description"
+    t.datetime "expiration_date"
+    t.boolean "completed"
+    t.integer "completed_by"
+    t.integer "category_id"
+    t.integer "created_by"
+    t.integer "task_generator_id"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+  end
 
   create_table "users", force: :cascade do |t|
     t.string "email", default: "", null: false

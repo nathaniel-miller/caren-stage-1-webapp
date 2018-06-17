@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  resources :important_info_pieces
   resources :categories
   resources :invitations
   resources :task_generators

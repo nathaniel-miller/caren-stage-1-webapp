@@ -1,2 +1,0 @@
-class ImportantInfoPiece < ApplicationRecord
-end

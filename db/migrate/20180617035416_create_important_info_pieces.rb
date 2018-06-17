@@ -5,7 +5,6 @@ class CreateImportantInfoPieces < ActiveRecord::Migration[5.2]
       t.string :category_id
       t.string :int
       t.int :created_by
-      t.timestamp :created_at
       t.int :seen_by, array: true, default: []
 
       t.timestamps

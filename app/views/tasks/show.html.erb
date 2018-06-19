@@ -1,0 +1,44 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Description:</strong>
+  <%= @task.description %>
+</p>
+
+<p>
+  <strong>Expiration date:</strong>
+  <%= @task.expiration_date %>
+</p>
+
+<p>
+  <strong>Completed:</strong>
+  <%= @task.completed %>
+</p>
+
+<p>
+  <strong>Completed by:</strong>
+  <%= @task.completed_by_id %>
+</p>
+
+<p>
+  <strong>Category:</strong>
+  <%= @task.category %>
+</p>
+
+<p>
+  <strong>Created by:</strong>
+  <%= @task.created_by_id %>
+</p>
+
+<p>
+  <strong>Task generator:</strong>
+  <%= @task.task_generator %>
+</p>
+
+<p>
+  <strong>Circle:</strong>
+  <%= @task.circle %>
+</p>
+
+<%= link_to 'Edit', edit_task_path(@task) %> |
+<%= link_to 'Back', tasks_path %>

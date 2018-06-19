@@ -1,0 +1,102 @@
+<%= form_with(model: task_generator, local: true) do |form| %>
+  <% if task_generator.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(task_generator.errors.count, "error") %> prohibited this task_generator from being saved:</h2>
+
+      <ul>
+      <% task_generator.errors.full_messages.each do |message| %>
+        <li><%= message %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="field">
+    <%= form.label :description %>
+    <%= form.text_area :description %>
+  </div>
+
+  <div class="field">
+    <%= form.label :category_id %>
+    <%= form.text_field :category_id %>
+  </div>
+
+  <div class="field">
+    <%= form.label :circle_id %>
+    <%= form.text_field :circle_id %>
+  </div>
+
+  <div class="field">
+    <%= form.label :created_by %>
+    <%= form.number_field :created_by %>
+  </div>
+
+  <div class="field">
+    <%= form.label :mandatory %>
+    <%= form.check_box :mandatory %>
+  </div>
+
+  <div class="field">
+    <%= form.label :every_n %>
+    <%= form.number_field :every_n %>
+  </div>
+
+  <div class="field">
+    <%= form.label :sun %>
+    <%= form.check_box :sun %>
+  </div>
+
+  <div class="field">
+    <%= form.label :mon %>
+    <%= form.check_box :mon %>
+  </div>
+
+  <div class="field">
+    <%= form.label :tues %>
+    <%= form.check_box :tues %>
+  </div>
+
+  <div class="field">
+    <%= form.label :wed %>
+    <%= form.check_box :wed %>
+  </div>
+
+  <div class="field">
+    <%= form.label :thurs %>
+    <%= form.check_box :thurs %>
+  </div>
+
+  <div class="field">
+    <%= form.label :fri %>
+    <%= form.check_box :fri %>
+  </div>
+
+  <div class="field">
+    <%= form.label :sat %>
+    <%= form.check_box :sat %>
+  </div>
+
+  <div class="field">
+    <%= form.label :part_of_day %>
+    <%= form.number_field :part_of_day %>
+  </div>
+
+  <div class="field">
+    <%= form.label :custom_time %>
+    <%= form.time_select :custom_time %>
+  </div>
+
+  <div class="field">
+    <%= form.label :last_run %>
+    <%= form.datetime_select :last_run %>
+  </div>
+
+  <div class="field">
+    <%= form.label :look_ahead %>
+    <%= form.number_field :look_ahead %>
+  </div>
+
+  <div class="actions">
+    <%= form.submit %>
+  </div>
+<% end %>

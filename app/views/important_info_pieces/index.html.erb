@@ -1,0 +1,35 @@
+<p id="notice"><%= notice %></p>
+
+<h1>Important Info Pieces</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th>Description</th>
+      <th>Category</th>
+      <th>Circle</th>
+      <th>Created by</th>
+      <th>Seen by</th>
+      <th colspan="3"></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @important_info_pieces.each do |important_info_piece| %>
+      <tr>
+        <td><%= important_info_piece.description %></td>
+        <td><%= important_info_piece.category %></td>
+        <td><%= important_info_piece.circle %></td>
+        <td><%= important_info_piece.created_by_id %></td>
+        <td><%= important_info_piece.seen_by %></td>
+        <td><%= link_to 'Show', important_info_piece %></td>
+        <td><%= link_to 'Edit', edit_important_info_piece_path(important_info_piece) %></td>
+        <td><%= link_to 'Destroy', important_info_piece, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<br>
+
+<%= link_to 'New Important Info Piece', new_important_info_piece_path %>

@@ -1,12 +1,6 @@
 class PositionsController < ApplicationController
   before_action :set_position, only: [:show, :edit, :update, :destroy]
 
-  # GET /positions
-  # GET /positions.json
-  def index
-    @positions = Position.all
-  end
-
   # GET /positions/1
   # GET /positions/1.json
   def show

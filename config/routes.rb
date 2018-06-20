@@ -5,7 +5,7 @@ Rails.application.routes.draw do
   resources :categories
   resources :task_generators
   resources :invitations
-  resources :positions
+  resources :positions, only: [:new, :create, :show, :edit, :update, :destroy]
   resources :roles
   resources :circles, only: [:new, :create, :show, :edit, :update, :destroy]
   get 'dashboard/index'

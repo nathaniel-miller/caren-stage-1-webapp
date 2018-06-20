@@ -4,7 +4,8 @@ class PostsController < ApplicationController
   # GET /posts
   # GET /posts.json
   def index
-    @posts = Post.all
+    @circle = Circle.find(params[:circle_id])
+    @posts = Post.where("circle_id = ?", params[:circle_id])
   end
 
   # GET /posts/1

@@ -4,7 +4,8 @@ class ImportantInfoPiecesController < ApplicationController
   # GET /important_info_pieces
   # GET /important_info_pieces.json
   def index
-    @important_info_pieces = ImportantInfoPiece.all
+    @circle = Circle.find(params[:circle_id])
+    @important_info_pieces = ImportantInfoPiece.where("circle_id = ?", params[:circle_id])
   end
 
   # GET /important_info_pieces/1

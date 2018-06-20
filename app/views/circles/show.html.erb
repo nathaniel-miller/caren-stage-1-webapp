@@ -10,6 +10,5 @@
 <h2>Positions</h2>
 <%= render "positions/positions_table" %>
 
-<h2>Add Position</h2>
-<%= link_to 'Add Position', new_position_path %><br>
-<%= link_to 'Edit Circle', edit_circle_path(@circle) %>
+<%= link_to 'Add Position', new_circle_position_path(@circle) %> |
+<%= link_to 'Edit Circle', edit_circle_position_path(@circle) %>

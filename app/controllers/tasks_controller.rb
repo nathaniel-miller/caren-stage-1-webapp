@@ -4,7 +4,8 @@ class TasksController < ApplicationController
   # GET /tasks
   # GET /tasks.json
   def index
-    @tasks = Task.all
+    @circle = Circle.find(params[:circle_id])
+    @tasks = Task.where("circle_id = ?", params[:circle_id])
   end
 
   # GET /tasks/1

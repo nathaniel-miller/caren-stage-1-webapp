@@ -12,8 +12,8 @@
       <tr>
         <td><%= position.role.name %></td>
         <td><%= position.user %></td>
-        <td><%= link_to 'Show', position %></td>
-        <td><%= link_to 'Edit', edit_position_path(position) %></td>
+        <td><%= link_to 'Show', circle_position_path(@circle) %></td>
+        <td><%= link_to 'Edit', edit_circle_position_path(position) %></td>
         <td><%= link_to 'Destroy', position, method: :delete, data: { confirm: 'Are you sure?' } %></td>
       </tr>
     <% end %>

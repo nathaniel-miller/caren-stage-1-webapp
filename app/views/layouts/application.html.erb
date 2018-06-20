@@ -13,5 +13,6 @@
     <p class="notice"><%= notice %></p>
     <p class="alert"><%= alert %></p>
     <%= yield %>
+    <%= render "circles/circle_navigation" if @circle %>
   </body>
 </html>

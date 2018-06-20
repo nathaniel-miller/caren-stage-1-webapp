@@ -1,8 +1,11 @@
 <h1>Dashboard#index</h1>      
 <p>Find me in app/views/dashboard/index.html.erb</p>
-
+<h2>Current User</h2>
+<p>First name: <%= @user.first_name %></p>
+<p>Last name: <%= @user.last_name %></p>
+<p>Email: <%= @user.email %></p>
 <h2>My Circles</h2>
-<%= @circles %>
+<%= render "circles/circles_table" %>
 <h2>My Invitations</h2>
 <%= render "invitations/invitations_table" %>
 

@@ -1,12 +1,6 @@
 class CirclesController < ApplicationController
   before_action :set_circle, only: [:show, :edit, :update, :destroy]
 
-  # GET /circles
-  # GET /circles.json
-  def index
-    @circles = Circle.all
-  end
-
   # GET /circles/1
   # GET /circles/1.json
   def show

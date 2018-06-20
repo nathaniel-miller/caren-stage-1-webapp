@@ -4,6 +4,9 @@ class CirclesController < ApplicationController
   # GET /circles/1
   # GET /circles/1.json
   def show
+    @circle = Circle.find(params[:id])
+    @super_admin = @circle.super_admin
+    @positions = @circle.positions
   end
 
   # GET /circles/new

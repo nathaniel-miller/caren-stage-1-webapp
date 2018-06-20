@@ -1,9 +1,14 @@
 <p id="notice"><%= notice %></p>
 
 <p>
-  <strong>User:</strong>
-  <%= @circle.super_admin %>
+  <h2>Admin:</h2>
+  First name: <%= @super_admin.first_name %><br>
+  Last name: <%= @super_admin.last_name %><br>
+  Email: <%= @super_admin.email %><br>
 </p>
+
+<h2>Positions</h2>
+<%= render "positions/positions_table" %>
 
 <%= link_to 'Edit', edit_circle_path(@circle) %> |
 <%= link_to 'Back', circles_path %>

@@ -12,15 +12,21 @@ class ImportantInfoPiecesController < ApplicationController
   # GET /important_info_pieces/1
   # GET /important_info_pieces/1.json
   def show
+    @in_circle = !!params[:circle_id] #for menu
+    @circle = params[:circle_id]
   end
 
   # GET /important_info_pieces/new
   def new
+    @in_circle = !!params[:circle_id] #for menu
+    @circle = params[:circle_id]
     @important_info_piece = ImportantInfoPiece.new
   end
 
   # GET /important_info_pieces/1/edit
   def edit
+    @in_circle = !!params[:circle_id] #for menu
+    @circle = params[:circle_id]
   end
 
   # POST /important_info_pieces

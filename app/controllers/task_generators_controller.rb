@@ -4,6 +4,7 @@ class TaskGeneratorsController < ApplicationController
   # GET /task_generators
   # GET /task_generators.json
   def index
+    @in_circle = !!params[:circle_id] #for menu
     @circle = params[:circle_id]
     @task_generators = TaskGenerator.all
   end
@@ -11,15 +12,21 @@ class TaskGeneratorsController < ApplicationController
   # GET /task_generators/1
   # GET /task_generators/1.json
   def show
+    @in_circle = !!params[:circle_id] #for menu
+    @circle = params[:circle_id]
   end
 
   # GET /task_generators/new
   def new
+    @in_circle = !!params[:circle_id] #for menu
+    @circle = params[:circle_id]
     @task_generator = TaskGenerator.new
   end
 
   # GET /task_generators/1/edit
   def edit
+    @in_circle = !!params[:circle_id] #for menu
+    @circle = params[:circle_id]
   end
 
   # POST /task_generators

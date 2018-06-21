@@ -12,15 +12,21 @@ class PostsController < ApplicationController
   # GET /posts/1
   # GET /posts/1.json
   def show
+    @in_circle = !!params[:circle_id] #for menu
+    @circle = params[:circle_id]
   end
 
   # GET /posts/new
   def new
+    @in_circle = !!params[:circle_id] #for menu
+    @circle = params[:circle_id]
     @post = Post.new
   end
 
   # GET /posts/1/edit
   def edit
+    @in_circle = !!params[:circle_id] #for menu
+    @circle = params[:circle_id]
   end
 
   # POST /posts

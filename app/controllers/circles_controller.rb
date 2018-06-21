@@ -4,6 +4,8 @@ class CirclesController < ApplicationController
   # GET /circles/1
   # GET /circles/1.json
   def show
+    @in_circle = !!params[:id] #for menu
+    
     @circle = Circle.find(params[:id])
     @super_admin = @circle.super_admin
     @positions = @circle.positions

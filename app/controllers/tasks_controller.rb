@@ -12,15 +12,21 @@ class TasksController < ApplicationController
   # GET /tasks/1
   # GET /tasks/1.json
   def show
+    @in_circle = !!params[:circle_id] #for menu
+    @circle = params[:circle_id]
   end
 
   # GET /tasks/new
   def new
+    @in_circle = !!params[:circle_id] #for menu
+    @circle = params[:circle_id]
     @task = Task.new
   end
 
   # GET /tasks/1/edit
   def edit
+    @in_circle = !!params[:circle_id] #for menu
+    @circle = params[:circle_id]
   end
 
   # POST /tasks

@@ -28,9 +28,9 @@
         <td><%= task.created_by_id %></td>
         <td><%= task.task_generator %></td>
         <td><%= task.circle %></td>
-        <td><%= link_to 'Show', task %></td>
-        <td><%= link_to 'Edit', edit_task_path(task) %></td>
-        <td><%= link_to 'Destroy', task, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+        <td><%= link_to 'Show', circle_task_path(@circle, task) %></td>
+        <td><%= link_to 'Edit', edit_circle_task_path(@circle, task) %></td>
+        <td><%= button_to 'Destroy', circle_task_path(@circle, task), method: :delete, data: { confirm: 'Are you sure?' } %></td>
       </tr>
     <% end %>
   </tbody>

@@ -4,6 +4,7 @@ class PositionsController < ApplicationController
   # GET /positions/1
   # GET /positions/1.json
   def show
+    @circle = params[:circle_id]
   end
 
   # GET /positions/new
@@ -18,11 +19,12 @@ class PositionsController < ApplicationController
   # POST /positions
   # POST /positions.json
   def create
+    @circle = position_params[:circle_id]
     @position = Position.new(position_params)
 
     respond_to do |format|
       if @position.save
-        format.html { redirect_to @position, notice: 'Position was successfully created.' }
+        format.html { redirect_to circle_position_path(@circle, @position), notice: 'Position was successfully created.' }
         format.json { render :show, status: :created, location: @position }
       else
         format.html { render :new }
@@ -34,9 +36,11 @@ class PositionsController < ApplicationController
   # PATCH/PUT /positions/1
   # PATCH/PUT /positions/1.json
   def update
+    @circle = position_params[:circle_id]
+
     respond_to do |format|
       if @position.update(position_params)
-        format.html { redirect_to @position, notice: 'Position was successfully updated.' }
+        format.html { redirect_to circle_position_path(@circle, @position), notice: 'Position was successfully updated.' }
         format.json { render :show, status: :ok, location: @position }
       else
         format.html { render :edit }
@@ -48,9 +52,11 @@ class PositionsController < ApplicationController
   # DELETE /positions/1
   # DELETE /positions/1.json
   def destroy
+    @circle = params[:circle_id]
+
     @position.destroy
     respond_to do |format|
-      format.html { redirect_to positions_url, notice: 'Position was successfully destroyed.' }
+      format.html { redirect_to circle_path(@circle), notice: 'Position was successfully destroyed.' }
       format.json { head :no_content }
     end
   end

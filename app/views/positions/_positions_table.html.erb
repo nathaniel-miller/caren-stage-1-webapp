@@ -12,9 +12,9 @@
       <tr>
         <td><%= position.role.name %></td>
         <td><%= position.user %></td>
-        <td><%= link_to 'Show', circle_position_path(@circle) %></td>
-        <td><%= link_to 'Edit', edit_circle_position_path(position) %></td>
-        <td><%= link_to 'Destroy', position, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+        <td><%= link_to 'Show', circle_position_path(@circle, position) %></td>
+        <td><%= link_to 'Edit', edit_circle_position_path(@circle, position) %></td>
+        <td><%= button_to 'Destroy', circle_position_path(@circle, position), method: :delete, data: { confirm: 'Are you sure?' } %></td>
       </tr>
     <% end %>
   </tbody>

@@ -4,6 +4,7 @@ class TaskGeneratorsController < ApplicationController
   # GET /task_generators
   # GET /task_generators.json
   def index
+    @circle = params[:circle_id]
     @task_generators = TaskGenerator.all
   end
 
@@ -24,11 +25,12 @@ class TaskGeneratorsController < ApplicationController
   # POST /task_generators
   # POST /task_generators.json
   def create
+    @circle = task_generator_params[:circle_id]
     @task_generator = TaskGenerator.new(task_generator_params)
 
     respond_to do |format|
       if @task_generator.save
-        format.html { redirect_to @task_generator, notice: 'Task generator was successfully created.' }
+        format.html { redirect_to circle_task_generator_path(@circle, @task_generator), notice: 'Task generator was successfully created.' }
         format.json { render :show, status: :created, location: @task_generator }
       else
         format.html { render :new }
@@ -40,9 +42,11 @@ class TaskGeneratorsController < ApplicationController
   # PATCH/PUT /task_generators/1
   # PATCH/PUT /task_generators/1.json
   def update
+    @circle = task_generator_params[:circle_id]
+
     respond_to do |format|
       if @task_generator.update(task_generator_params)
-        format.html { redirect_to @task_generator, notice: 'Task generator was successfully updated.' }
+        format.html { redirect_to circle_task_generator_path(@circle, @task_generator), notice: 'Task generator was successfully updated.' }
         format.json { render :show, status: :ok, location: @task_generator }
       else
         format.html { render :edit }
@@ -56,7 +60,7 @@ class TaskGeneratorsController < ApplicationController
   def destroy
     @task_generator.destroy
     respond_to do |format|
-      format.html { redirect_to task_generators_url, notice: 'Task generator was successfully destroyed.' }
+      format.html { redirect_to circle_task_generators_path, notice: 'Task generator was successfully destroyed.' }
       format.json { head :no_content }
     end
   end

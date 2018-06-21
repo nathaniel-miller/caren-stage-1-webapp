@@ -46,9 +46,9 @@
         <td><%= task_generator.custom_time %></td>
         <td><%= task_generator.last_run %></td>
         <td><%= task_generator.look_ahead %></td>
-        <td><%= link_to 'Show', task_generator %></td>
-        <td><%= link_to 'Edit', edit_task_generator_path(task_generator) %></td>
-        <td><%= link_to 'Destroy', task_generator, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+        <td><%= link_to 'Show', circle_task_generator_path(@circle, task_generator) %></td>
+        <td><%= link_to 'Edit', edit_circle_task_generator_path(@circle, task_generator) %></td>
+        <td><%= button_to 'Destroy', circle_task_generator_path(@circle, task_generator), method: :delete, data: { confirm: 'Are you sure?' } %></td>        
       </tr>
     <% end %>
   </tbody>
@@ -56,4 +56,4 @@
 
 <br>
 
-<%= link_to 'New Task Generator', new_task_generator_path %>
+<%= link_to 'New Task Generator', new_circle_task_generator_path %>

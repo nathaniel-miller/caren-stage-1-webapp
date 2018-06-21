@@ -1,4 +1,4 @@
-<%= form_with(model: task_generator, local: true) do |form| %>
+<%= form_with(model: @task_generator, url: (@task_generator.new_record? ? circle_task_generators_path : circle_task_generator_path)) do |form| %>
   <% if task_generator.errors.any? %>
     <div id="error_explanation">
       <h2><%= pluralize(task_generator.errors.count, "error") %> prohibited this task_generator from being saved:</h2>

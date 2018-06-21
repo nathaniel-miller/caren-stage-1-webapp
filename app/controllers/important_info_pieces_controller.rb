@@ -4,7 +4,8 @@ class ImportantInfoPiecesController < ApplicationController
   # GET /important_info_pieces
   # GET /important_info_pieces.json
   def index
-    @circle = Circle.find(params[:circle_id])
+    @in_circle = !!params[:circle_id] #for menu
+    @circle = params[:circle_id]
     @important_info_pieces = ImportantInfoPiece.where("circle_id = ?", params[:circle_id])
   end
 
@@ -25,11 +26,12 @@ class ImportantInfoPiecesController < ApplicationController
   # POST /important_info_pieces
   # POST /important_info_pieces.json
   def create
+    @circle = important_info_piece_params[:circle_id]
     @important_info_piece = ImportantInfoPiece.new(important_info_piece_params)
 
     respond_to do |format|
       if @important_info_piece.save
-        format.html { redirect_to @important_info_piece, notice: 'Important info piece was successfully created.' }
+        format.html { redirect_to circle_important_info_piece_path(@circle, @important_info_piece), notice: 'Important info piece was successfully created.' }
         format.json { render :show, status: :created, location: @important_info_piece }
       else
         format.html { render :new }
@@ -41,9 +43,11 @@ class ImportantInfoPiecesController < ApplicationController
   # PATCH/PUT /important_info_pieces/1
   # PATCH/PUT /important_info_pieces/1.json
   def update
+    @circle = important_info_piece_params[:circle_id]
+
     respond_to do |format|
       if @important_info_piece.update(important_info_piece_params)
-        format.html { redirect_to @important_info_piece, notice: 'Important info piece was successfully updated.' }
+        format.html { redirect_to circle_important_info_piece_path(@circle, @important_info_piece), notice: 'Important info piece was successfully updated.' }
         format.json { render :show, status: :ok, location: @important_info_piece }
       else
         format.html { render :edit }
@@ -57,7 +61,7 @@ class ImportantInfoPiecesController < ApplicationController
   def destroy
     @important_info_piece.destroy
     respond_to do |format|
-      format.html { redirect_to important_info_pieces_url, notice: 'Important info piece was successfully destroyed.' }
+      format.html { redirect_to circle_important_info_pieces_path, notice: 'Important info piece was successfully destroyed.' }
       format.json { head :no_content }
     end
   end

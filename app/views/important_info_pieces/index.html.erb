@@ -22,9 +22,9 @@
         <td><%= important_info_piece.circle %></td>
         <td><%= important_info_piece.created_by_id %></td>
         <td><%= important_info_piece.seen_by %></td>
-        <td><%= link_to 'Show', important_info_piece %></td>
-        <td><%= link_to 'Edit', edit_important_info_piece_path(important_info_piece) %></td>
-        <td><%= link_to 'Destroy', important_info_piece, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+        <td><%= link_to 'Show', circle_important_info_piece_path(@circle, important_info_piece) %></td>
+        <td><%= link_to 'Edit', edit_circle_important_info_piece_path(@circle, important_info_piece) %></td>
+        <td><%= button_to 'Destroy', circle_important_info_piece_path(@circle, important_info_piece), method: :delete, data: { confirm: 'Are you sure?' } %></td>
       </tr>
     <% end %>
   </tbody>
@@ -32,4 +32,4 @@
 
 <br>
 
-<%= link_to 'New Important Info Piece', new_circle_important_info_piece_path %>
+<%= link_to 'New important_info_piece', new_circle_important_info_piece_path %>

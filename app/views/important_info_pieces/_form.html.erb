@@ -1,4 +1,4 @@
-<%= form_with(model: important_info_piece, local: true) do |form| %>
+<%= form_with(model: @important_info_piece, url: (@important_info_piece.new_record? ? circle_important_info_pieces_path : circle_important_info_piece_path)) do |form| %>
   <% if important_info_piece.errors.any? %>
     <div id="error_explanation">
       <h2><%= pluralize(important_info_piece.errors.count, "error") %> prohibited this important_info_piece from being saved:</h2>

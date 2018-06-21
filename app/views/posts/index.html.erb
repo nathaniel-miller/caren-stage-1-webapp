@@ -20,9 +20,9 @@
         <td><%= post.circle %></td>
         <td><%= post.user %></td>
         <td><%= post.medical %></td>
-        <td><%= link_to 'Show', post %></td>
-        <td><%= link_to 'Edit', edit_post_path(post) %></td>
-        <td><%= link_to 'Destroy', post, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+        <td><%= link_to 'Show', circle_post_path(@circle, post) %></td>
+        <td><%= link_to 'Edit', edit_circle_post_path(@circle, post) %></td>
+        <td><%= link_to 'Destroy', circle_post_path(@circle, post), method: :delete, data: { confirm: 'Are you sure?' } %></td>
       </tr>
     <% end %>
   </tbody>

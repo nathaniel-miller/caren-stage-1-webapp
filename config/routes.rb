@@ -9,7 +9,7 @@ Rails.application.routes.draw do
     resources :posts
     resources :important_info_pieces
     resources :task_generators
-    resources :positions
+    resources :positions, except: [:index]
   end
   
   get 'dashboard/index'

@@ -1,0 +1,245 @@
+MIT
+===
+* actioncable 5.2.0 (http://rubyonrails.org) - WebSocket framework for Rails.
+/home/mtodt/.rvm/gems/ruby-2.5.1/gems/actioncable-5.2.0
+* actionmailer 5.2.0 (http://rubyonrails.org) - Email composition, delivery, and receiving framework (part of Rails).
+/home/mtodt/.rvm/gems/ruby-2.5.1/gems/actionmailer-5.2.0
+* actionpack 5.2.0 (http://rubyonrails.org) - Web-flow and rendering framework putting the VC in MVC (part of Rails).
+/home/mtodt/.rvm/gems/ruby-2.5.1/gems/actionpack-5.2.0
+* actionview 5.2.0 (http://rubyonrails.org) - Rendering framework putting the V in MVC (part of Rails).
+/home/mtodt/.rvm/gems/ruby-2.5.1/gems/actionview-5.2.0
+* activejob 5.2.0 (http://rubyonrails.org) - Job framework with pluggable queues.
+/home/mtodt/.rvm/gems/ruby-2.5.1/gems/activejob-5.2.0
+* activemodel 5.2.0 (http://rubyonrails.org) - A toolkit for building modeling frameworks (part of Rails).
+/home/mtodt/.rvm/gems/ruby-2.5.1/gems/activemodel-5.2.0
+* activerecord 5.2.0 (http://rubyonrails.org) - Object-relational mapper framework (part of Rails).
+/home/mtodt/.rvm/gems/ruby-2.5.1/gems/activerecord-5.2.0
+* activestorage 5.2.0 (http://rubyonrails.org) - Local and cloud file storage framework.
+/home/mtodt/.rvm/gems/ruby-2.5.1/gems/activestorage-5.2.0
+* activesupport 5.2.0 (http://rubyonrails.org) - A toolkit of support libraries and Ruby core extensions extracted from the Rails framework.
+/home/mtodt/.rvm/gems/ruby-2.5.1/gems/activesupport-5.2.0
+* arel 9.0.0 (https://github.com/rails/arel) - Arel Really Exasperates Logicians  Arel is a SQL AST manager for Ruby
+/home/mtodt/.rvm/gems/ruby-2.5.1/gems/arel-9.0.0
+* ast 2.4.0 (https://whitequark.github.io/ast/) - A library for working with Abstract Syntax Trees.
+/home/mtodt/.rvm/gems/ruby-2.5.1/gems/ast-2.4.0
+* bcrypt 3.1.12 (https://github.com/codahale/bcrypt-ruby) - OpenBSD's bcrypt() password hashing algorithm.
+/home/mtodt/.rvm/gems/ruby-2.5.1/gems/bcrypt-3.1.12
+* bindex 0.5.0 (https://github.com/gsamokovarov/bindex) - Bindings for your Ruby exceptions
+/home/mtodt/.rvm/gems/ruby-2.5.1/gems/bindex-0.5.0
+* bootsnap 1.3.0 (https://github.com/Shopify/bootsnap) - Boot large ruby/rails apps faster
+/home/mtodt/.rvm/gems/ruby-2.5.1/gems/bootsnap-1.3.0
+* builder 3.2.3 (http://onestepback.org) - Builders for MarkUp.
+/home/mtodt/.rvm/gems/ruby-2.5.1/gems/builder-3.2.3
+* bundler 1.16.2 (http://bundler.io) - The best way to manage your application's dependencies
+/home/mtodt/.rvm/gems/ruby-2.5.1/gems/bundler-1.16.2
+* choice 0.2.0 (http://www.github.com/defunkt/choice) - Choice is a command line option parser.
+/home/mtodt/.rvm/gems/ruby-2.5.1/gems/choice-0.2.0
+* coderay 1.1.2 (http://coderay.rubychan.de) - Fast syntax highlighting for selected languages.
+/home/mtodt/.rvm/gems/ruby-2.5.1/gems/coderay-1.1.2
+* coffee-rails 4.2.2 (https://github.com/rails/coffee-rails) - CoffeeScript adapter for the Rails asset pipeline.
+/home/mtodt/.rvm/gems/ruby-2.5.1/gems/coffee-rails-4.2.2
+* coffee-script 2.4.1 (http://github.com/josh/ruby-coffee-script) - Ruby CoffeeScript Compiler
+/home/mtodt/.rvm/gems/ruby-2.5.1/gems/coffee-script-2.4.1
+* coffee-script-source 1.12.2 (http://coffeescript.org) - The CoffeeScript Compiler
+/home/mtodt/.rvm/gems/ruby-2.5.1/gems/coffee-script-source-1.12.2
+* concurrent-ruby 1.0.5 (http://www.concurrent-ruby.com) - Modern concurrency tools for Ruby. Inspired by Erlang, Clojure, Scala, Haskell, F#, C#, Java, and classic concurrency patterns.
+/home/mtodt/.rvm/gems/ruby-2.5.1/gems/concurrent-ruby-1.0.5
+* crass 1.0.4 (https://github.com/rgrove/crass/) - CSS parser based on the CSS Syntax Level 3 spec.
+/home/mtodt/.rvm/gems/ruby-2.5.1/gems/crass-1.0.4
+* devise 4.4.3 (https://github.com/plataformatec/devise) - Flexible authentication solution for Rails with Warden
+/home/mtodt/.rvm/gems/ruby-2.5.1/gems/devise-4.4.3
+* did_you_mean 1.2.0 (https://github.com/yuki24/did_you_mean) - "Did you mean?" experience in Ruby
+/home/mtodt/.rvm/gems/ruby-2.5.1@global/gems/did_you_mean-1.2.0
+* diff-lcs 1.3 (https://github.com/halostatue/diff-lcs) - Diff::LCS computes the difference between two Enumerable sequences using the McIlroy-Hunt longest common subsequence (LCS) algorithm
+/home/mtodt/.rvm/gems/ruby-2.5.1/gems/diff-lcs-1.3
+* erubi 1.7.1 (https://github.com/jeremyevans/erubi) - Small ERB Implementation
+/home/mtodt/.rvm/gems/ruby-2.5.1/gems/erubi-1.7.1
+* execjs 2.7.0 (https://github.com/rails/execjs) - Run JavaScript code from Ruby
+/home/mtodt/.rvm/gems/ruby-2.5.1/gems/execjs-2.7.0
+* gem-licenses 0.2.2 (http://github.com/dblock/gem-licenses) - Attempts to figure out what licenses various gems use.
+/home/mtodt/.rvm/gems/ruby-2.5.1/gems/gem-licenses-0.2.2
+* globalid 0.4.1 (http://www.rubyonrails.org) - Refer to any model with a URI: gid://app/class/id
+/home/mtodt/.rvm/gems/ruby-2.5.1/gems/globalid-0.4.1
+* graphiql-rails 1.4.10 (http://github.com/rmosolgo/graphiql-rails) - A mountable GraphiQL endpoint for Rails
+/home/mtodt/.rvm/gems/ruby-2.5.1/gems/graphiql-rails-1.4.10
+* graphql 1.7.4 (http://github.com/rmosolgo/graphql-ruby) - A GraphQL language and runtime for Ruby
+/home/mtodt/.rvm/gems/ruby-2.5.1/gems/graphql-1.7.4
+* htmlentities 4.3.4 (https://github.com/threedaymonk/htmlentities) - Encode/decode HTML entities
+/home/mtodt/.rvm/gems/ruby-2.5.1/gems/htmlentities-4.3.4
+* i18n 1.0.1 (http://github.com/svenfuchs/i18n) - New wave Internationalization support for Ruby
+/home/mtodt/.rvm/gems/ruby-2.5.1/gems/i18n-1.0.1
+* jbuilder 2.7.0 (https://github.com/rails/jbuilder) - Create JSON structures via a Builder-style DSL
+/home/mtodt/.rvm/gems/ruby-2.5.1/gems/jbuilder-2.7.0
+* jquery-rails 4.3.3 (https://github.com/rails/jquery-rails) - Use jQuery with Rails 4+
+/home/mtodt/.rvm/gems/ruby-2.5.1/gems/jquery-rails-4.3.3
+* kramdown 1.17.0 (http://kramdown.gettalong.org) - kramdown is a fast, pure-Ruby Markdown-superset converter.
+/home/mtodt/.rvm/gems/ruby-2.5.1/gems/kramdown-1.17.0
+* listen 3.1.5 (https://github.com/guard/listen) - Listen to file modifications
+/home/mtodt/.rvm/gems/ruby-2.5.1/gems/listen-3.1.5
+* loofah 2.2.2 (https://github.com/flavorjones/loofah) - Loofah is a general library for manipulating and transforming HTML/XML documents and fragments
+/home/mtodt/.rvm/gems/ruby-2.5.1/gems/loofah-2.2.2
+* mail 2.7.0 (https://github.com/mikel/mail) - Mail provides a nice Ruby DSL for making, sending and reading emails.
+/home/mtodt/.rvm/gems/ruby-2.5.1/gems/mail-2.7.0
+* marcel 0.3.2 (https://github.com/basecamp/marcel) - Simple mime type detection using magic numbers, filenames, and extensions
+/home/mtodt/.rvm/gems/ruby-2.5.1/gems/marcel-0.3.2
+* method_source 0.9.0 (http://banisterfiend.wordpress.com) - retrieve the sourcecode for a method
+/home/mtodt/.rvm/gems/ruby-2.5.1/gems/method_source-0.9.0
+* mimemagic 0.3.2 (https://github.com/minad/mimemagic) - Fast mime detection by extension or content
+/home/mtodt/.rvm/gems/ruby-2.5.1/gems/mimemagic-0.3.2
+* mini_mime 1.0.0 (https://github.com/discourse/mini_mime) - A lightweight mime type lookup toy
+/home/mtodt/.rvm/gems/ruby-2.5.1/gems/mini_mime-1.0.0
+* mini_portile2 2.3.0 (http://github.com/flavorjones/mini_portile) - Simplistic port-like solution for developers
+/home/mtodt/.rvm/gems/ruby-2.5.1/gems/mini_portile2-2.3.0
+* minitest 5.11.3 (https://github.com/seattlerb/minitest) - minitest provides a complete suite of testing facilities supporting TDD, BDD, mocking, and benchmarking
+/home/mtodt/.rvm/gems/ruby-2.5.1/gems/minitest-5.11.3
+* multi_json 1.13.1 (http://github.com/intridea/multi_json) - A common interface to multiple JSON libraries.
+/home/mtodt/.rvm/gems/ruby-2.5.1/gems/multi_json-1.13.1
+* nio4r 2.3.1 (https://github.com/socketry/nio4r) - New IO for Ruby
+/home/mtodt/.rvm/gems/ruby-2.5.1/gems/nio4r-2.3.1
+* nokogiri 1.8.2 (http://nokogiri.org) - Nokogiri (鋸) is an HTML, XML, SAX, and Reader parser
+/home/mtodt/.rvm/gems/ruby-2.5.1/gems/nokogiri-1.8.2
+* orm_adapter 0.5.0 (http://github.com/ianwhite/orm_adapter) - orm_adapter provides a single point of entry for using basic features of popular ruby ORMs.  Its target audience is gem authors who want to support many ruby ORMs.
+/home/mtodt/.rvm/gems/ruby-2.5.1/gems/orm_adapter-0.5.0
+* parallel 1.12.1 (https://github.com/grosser/parallel) - Run any kind of code in parallel processes
+/home/mtodt/.rvm/gems/ruby-2.5.1/gems/parallel-1.12.1
+* parser 2.4.0.2 (https://github.com/whitequark/parser) - A Ruby parser written in pure Ruby.
+/home/mtodt/.rvm/gems/ruby-2.5.1/gems/parser-2.4.0.2
+* powerpack 0.1.2 (https://github.com/bbatsov/powerpack) - A few useful extensions to core Ruby classes.
+/home/mtodt/.rvm/gems/ruby-2.5.1/gems/powerpack-0.1.2
+* rack 2.0.5 (https://rack.github.io/) - a modular Ruby webserver interface
+/home/mtodt/.rvm/gems/ruby-2.5.1/gems/rack-2.0.5
+* rack-test 1.0.0 (http://github.com/rack-test/rack-test) - Simple testing API built on Rack
+/home/mtodt/.rvm/gems/ruby-2.5.1/gems/rack-test-1.0.0
+* rails 5.2.0 (http://rubyonrails.org) - Full-stack web application framework.
+/home/mtodt/.rvm/gems/ruby-2.5.1/gems/rails-5.2.0
+* rails-dom-testing 2.0.3 (https://github.com/rails/rails-dom-testing) - Dom and Selector assertions for Rails applications
+/home/mtodt/.rvm/gems/ruby-2.5.1/gems/rails-dom-testing-2.0.3
+* rails-erd 1.5.2 (https://github.com/voormedia/rails-erd) - Entity-relationship diagram for your Rails models.
+/home/mtodt/.rvm/gems/ruby-2.5.1/gems/rails-erd-1.5.2
+* rails-html-sanitizer 1.0.4 (https://github.com/rails/rails-html-sanitizer) - This gem is responsible to sanitize HTML fragments in Rails applications.
+/home/mtodt/.rvm/gems/ruby-2.5.1/gems/rails-html-sanitizer-1.0.4
+* rails_layout 1.0.42 (http://github.com/RailsApps/rails_layout/) - Rails generator creates application layout files for Bootstrap and other frameworks.
+/home/mtodt/.rvm/gems/ruby-2.5.1/gems/rails_layout-1.0.42
+* railties 5.2.0 (http://rubyonrails.org) - Tools for creating, working with, and running Rails applications.
+/home/mtodt/.rvm/gems/ruby-2.5.1/gems/railties-5.2.0
+* rainbow 3.0.0 (https://github.com/sickill/rainbow) - Colorize printed text on ANSI terminals
+/home/mtodt/.rvm/gems/ruby-2.5.1/gems/rainbow-3.0.0
+* rake 12.3.1 (https://github.com/ruby/rake) - Rake is a Make-like program implemented in Ruby
+/home/mtodt/.rvm/gems/ruby-2.5.1/gems/rake-12.3.1
+* rb-fsevent 0.10.3 (http://rubygems.org/gems/rb-fsevent) - Very simple & usable FSEvents API
+/home/mtodt/.rvm/gems/ruby-2.5.1/gems/rb-fsevent-0.10.3
+* rb-inotify 0.9.10 (https://github.com/guard/rb-inotify) - A Ruby wrapper for Linux inotify, using FFI
+/home/mtodt/.rvm/gems/ruby-2.5.1/gems/rb-inotify-0.9.10
+* responders 2.4.0 (http://github.com/plataformatec/responders) - A set of Rails responders to dry up your application
+/home/mtodt/.rvm/gems/ruby-2.5.1/gems/responders-2.4.0
+* rspec-core 3.7.1 (https://github.com/rspec/rspec-core) - rspec-core-3.7.1
+/home/mtodt/.rvm/gems/ruby-2.5.1/gems/rspec-core-3.7.1
+* rspec-expectations 3.7.0 (https://github.com/rspec/rspec-expectations) - rspec-expectations-3.7.0
+/home/mtodt/.rvm/gems/ruby-2.5.1/gems/rspec-expectations-3.7.0
+* rspec-mocks 3.7.0 (https://github.com/rspec/rspec-mocks) - rspec-mocks-3.7.0
+/home/mtodt/.rvm/gems/ruby-2.5.1/gems/rspec-mocks-3.7.0
+* rspec-rails 3.7.2 (https://github.com/rspec/rspec-rails) - RSpec for Rails
+/home/mtodt/.rvm/gems/ruby-2.5.1/gems/rspec-rails-3.7.2
+* rspec-support 3.7.1 (https://github.com/rspec/rspec-support) - rspec-support-3.7.1
+/home/mtodt/.rvm/gems/ruby-2.5.1/gems/rspec-support-3.7.1
+* rubocop 0.52.1 (https://github.com/bbatsov/rubocop) - Automatic Ruby code style checking tool.
+/home/mtodt/.rvm/gems/ruby-2.5.1/gems/rubocop-0.52.1
+* ruby-progressbar 1.9.0 (https://github.com/jfelchner/ruby-progressbar) - Ruby/ProgressBar is a flexible text progress bar library for Ruby.
+/home/mtodt/.rvm/gems/ruby-2.5.1/gems/ruby-progressbar-1.9.0
+* ruby_dep 1.5.0 (https://github.com/e2/ruby_dep) - Extracts supported Ruby versions from Travis file
+/home/mtodt/.rvm/gems/ruby-2.5.1/gems/ruby_dep-1.5.0
+* sass 3.5.6 (http://sass-lang.com/) - A powerful but elegant CSS compiler that makes CSS fun again.
+/home/mtodt/.rvm/gems/ruby-2.5.1/gems/sass-3.5.6
+* sass-listen 4.0.0 (https://github.com/sass/listen) - Fork of guard/listen
+/home/mtodt/.rvm/gems/ruby-2.5.1/gems/sass-listen-4.0.0
+* sass-rails 5.0.7 (https://github.com/rails/sass-rails) - Sass adapter for the Rails asset pipeline.
+/home/mtodt/.rvm/gems/ruby-2.5.1/gems/sass-rails-5.0.7
+* solargraph 0.23.3 (http://solargraph.org) - Solargraph for Ruby
+/home/mtodt/.rvm/gems/ruby-2.5.1/gems/solargraph-0.23.3
+* spring 2.0.2 (https://github.com/rails/spring) - Rails application preloader
+/home/mtodt/.rvm/gems/ruby-2.5.1/gems/spring-2.0.2
+* spring-watcher-listen 2.0.1 (https://github.com/jonleighton/spring-watcher-listen) - Makes spring watch files using the listen gem.
+/home/mtodt/.rvm/gems/ruby-2.5.1/gems/spring-watcher-listen-2.0.1
+* sprockets 3.7.1 (https://github.com/rails/sprockets) - Rack-based asset packaging system
+/home/mtodt/.rvm/gems/ruby-2.5.1/gems/sprockets-3.7.1
+* sprockets-rails 3.2.1 (https://github.com/rails/sprockets-rails) - Sprockets Rails integration
+/home/mtodt/.rvm/gems/ruby-2.5.1/gems/sprockets-rails-3.2.1
+* thor 0.20.0 (http://whatisthor.com/) - Thor is a toolkit for building powerful command-line interfaces.
+/home/mtodt/.rvm/gems/ruby-2.5.1/gems/thor-0.20.0
+* tilt 2.0.8 (http://github.com/rtomayko/tilt/) - Generic interface to multiple Ruby template engines
+/home/mtodt/.rvm/gems/ruby-2.5.1/gems/tilt-2.0.8
+* turbolinks 5.1.1 (https://github.com/turbolinks/turbolinks) - Turbolinks makes navigating your web application faster
+/home/mtodt/.rvm/gems/ruby-2.5.1/gems/turbolinks-5.1.1
+* turbolinks-source 5.1.0 (https://github.com/turbolinks/turbolinks-source-gem) - Turbolinks JavaScript assets
+/home/mtodt/.rvm/gems/ruby-2.5.1/gems/turbolinks-source-5.1.0
+* tzinfo 1.2.5 (http://tzinfo.github.io) - Daylight savings aware timezone library
+/home/mtodt/.rvm/gems/ruby-2.5.1/gems/tzinfo-1.2.5
+* uglifier 4.1.11 (http://github.com/lautis/uglifier) - Ruby wrapper for UglifyJS JavaScript compressor
+/home/mtodt/.rvm/gems/ruby-2.5.1/gems/uglifier-4.1.11
+* unicode-display_width 1.4.0 (http://github.com/janlelis/unicode-display_width) - Determines the monospace display width of a string in Ruby.
+/home/mtodt/.rvm/gems/ruby-2.5.1/gems/unicode-display_width-1.4.0
+* warden 1.2.7 (http://github.com/hassox/warden) - Rack middleware that provides authentication for rack applications
+/home/mtodt/.rvm/gems/ruby-2.5.1/gems/warden-1.2.7
+* web-console 3.6.2 (https://github.com/rails/web-console) - A debugging tool for your Ruby on Rails applications.
+/home/mtodt/.rvm/gems/ruby-2.5.1/gems/web-console-3.6.2
+* websocket-driver 0.7.0 (https://github.com/faye/websocket-driver-ruby) - WebSocket protocol handler with pluggable I/O
+/home/mtodt/.rvm/gems/ruby-2.5.1/gems/websocket-driver-0.7.0
+* websocket-extensions 0.1.3 (https://github.com/faye/websocket-extensions-ruby) - Generic extension manager for WebSocket connections
+/home/mtodt/.rvm/gems/ruby-2.5.1/gems/websocket-extensions-0.1.3
+* yard 0.9.14 (http://yardoc.org) - Documentation tool for consistent and usable documentation in Ruby.
+/home/mtodt/.rvm/gems/ruby-2.5.1/gems/yard-0.9.14
+
+Apache 2.0
+==========
+* bundler-unload 1.0.2 (https://github.com/mpapis/bundler-unload) - Allow unloading bundler after Bundler.load
+/home/mtodt/.rvm/gems/ruby-2.5.1@global/gems/bundler-unload-1.0.2
+* executable-hooks 1.4.2 (https://github.com/mpapis/executable-hooks) - Hook into rubygems executables allowing extra actions to be taken before executable is run.
+/home/mtodt/.rvm/gems/ruby-2.5.1@global/gems/executable-hooks-1.4.2
+* msgpack 1.2.4 (http://msgpack.org/) - MessagePack, a binary-based efficient data interchange format.
+/home/mtodt/.rvm/gems/ruby-2.5.1/gems/msgpack-1.2.4
+* rubygems-bundler 1.4.4 (http://mpapis.github.com/rubygems-bundler) - Stop using bundle exec
+/home/mtodt/.rvm/gems/ruby-2.5.1@global/gems/rubygems-bundler-1.4.4
+* thread_safe 0.3.6 (https://github.com/ruby-concurrency/thread_safe) - Thread-safe collections and utilities for Ruby
+/home/mtodt/.rvm/gems/ruby-2.5.1/gems/thread_safe-0.3.6
+
+bsd-3-clause
+============
+* ffi 1.9.25 (http://wiki.github.com/ffi/ffi) - Ruby FFI
+/home/mtodt/.rvm/gems/ruby-2.5.1/gems/ffi-1.9.25
+* pg 1.0.0 (https://bitbucket.org/ged/ruby-pg) - Pg is the Ruby interface to the {PostgreSQL RDBMS}[http://www.postgresql.org/]
+/home/mtodt/.rvm/gems/ruby-2.5.1/gems/pg-1.0.0
+* puma 3.11.4 (http://puma.io) - Puma is a simple, fast, threaded, and highly concurrent HTTP 1.1 server for Ruby/Rack applications
+/home/mtodt/.rvm/gems/ruby-2.5.1/gems/puma-3.11.4
+
+gpl-2.0
+=======
+* eventmachine 1.2.7 (http://rubyeventmachine.com) - Ruby/EventMachine library
+/home/mtodt/.rvm/gems/ruby-2.5.1/gems/eventmachine-1.2.7
+* ruby-graphviz 1.2.3 (https://github.com/glejeune/Ruby-Graphviz) - Interface to the GraphViz graphing tool
+/home/mtodt/.rvm/gems/ruby-2.5.1/gems/ruby-graphviz-1.2.3
+
+BSD 2-Clause
+============
+* byebug 10.0.2 (http://github.com/deivid-rodriguez/byebug) - Ruby fast debugger - base + CLI
+/home/mtodt/.rvm/gems/ruby-2.5.1/gems/byebug-10.0.2
+
+GPLv2
+=====
+* diff-lcs 1.3 (https://github.com/halostatue/diff-lcs) - Diff::LCS computes the difference between two Enumerable sequences using the McIlroy-Hunt longest common subsequence (LCS) algorithm
+/home/mtodt/.rvm/gems/ruby-2.5.1/gems/diff-lcs-1.3
+
+Ruby
+====
+* eventmachine 1.2.7 (http://rubyeventmachine.com) - Ruby/EventMachine library
+/home/mtodt/.rvm/gems/ruby-2.5.1/gems/eventmachine-1.2.7
+
+WTFPL
+=====
+* reverse_markdown 1.1.0 (http://github.com/xijo/reverse_markdown) - Convert html code into markdown.
+/home/mtodt/.rvm/gems/ruby-2.5.1/gems/reverse_markdown-1.1.0
+
+artistic-2.0
+============
+* diff-lcs 1.3 (https://github.com/halostatue/diff-lcs) - Diff::LCS computes the difference between two Enumerable sequences using the McIlroy-Hunt longest common subsequence (LCS) algorithm
+/home/mtodt/.rvm/gems/ruby-2.5.1/gems/diff-lcs-1.3
+

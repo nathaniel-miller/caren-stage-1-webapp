@@ -1,13 +1,26 @@
-<h1>Dashboard#index</h1>      
-<p>Find me in app/views/dashboard/index.html.erb</p>
-<h2>Current User</h2>
-<p>First name: <%= @user.first_name %></p>
-<p>Last name: <%= @user.last_name %></p>
-<p>Email: <%= @user.email %></p>
-<h2>My Circles</h2>
-<%= render "circles/circles_table" %>
-<h2>My Invitations</h2>
-<%= render "invitations/invitations_table" %>
-
-<h2>New Circle</h2>
-<%= link_to 'New Circle', new_circle_path %>
+<html>
+  <head>
+  </head>
+  <body>
+    <main>
+      <center>
+        <div class="container">
+            <h3>Current User</h3>
+            <p>First name: <%= @user.first_name %></p>
+            <p>Last name: <%= @user.last_name %></p>
+            <p>Email: <%= @user.email %></p>
+            <h3>My Circles</h3>
+            <%= render "circles/circles_table" %>
+            <h3>My Invitations</h3>
+            <%= render "invitations/invitations_table" %>
+            <%= link_to 'New Circle', new_circle_path %>
+            
+            <p>
+            <%= link_to "Log Out", destroy_user_session_path, method: 'delete' %>
+            <%= link_to "Settings", edit_user_registration_path %>
+          </center>
+        </main>
+        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.1/jquery.min.js"></script>
+        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.5/js/materialize.min.js"></script>
+      </body>
+    </html>

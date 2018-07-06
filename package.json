@@ -1,5 +1,8 @@
 {
   "name": "caren-stage-1-webapp",
   "private": true,
-  "dependencies": {}
+  "dependencies": {},
+  "devDependencies": {
+    "eslint-config-google": "^0.9.1"
+  }
 }
